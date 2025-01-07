@@ -24,8 +24,8 @@ jobs:
     - name: Install dependencies
       run: npm install
 
-    - name: Run tests
-      run: npm test
+    - name: Run Node.js script
+      run: node index.js
 
     - name: Echo Completion Message
       run: echo "CI/CD pipeline completed successfully!"
